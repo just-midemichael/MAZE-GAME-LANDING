@@ -8,8 +8,8 @@ export const About = () => {
 
       <article className='article-box-1'>
         <div className='image-focal-point'>
-          <div className='about-image about-image-1'>1</div>
-          <div className='about-image about-image-2'>2</div>
+          <div className='about-image about-image-1'></div>
+          <div className='about-image about-image-2'></div>
         </div>
         <div className='text-focal-point'>
           <p>
