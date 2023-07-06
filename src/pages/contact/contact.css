@@ -1,0 +1,61 @@
+.contact {
+    /* border: 2px solid black; */
+    width: 100%;
+    height: fit-content;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-image: url(../../../public/mg-hero-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    font-family: monospace;
+    overflow: hidden;
+}
+.contact-wrapper {
+    /* border: 2px solid red; */
+    height: 350px;
+    width: 90%;
+    max-width: 1000px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.111);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.307);
+    border: 2px solid transparent;
+    padding: 10px 2%;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.title, .contact-content, .social-media-space {
+    /* border: 2px solid red; */
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+    max-height: 60px;
+    width: 100%;
+    font-size: 1.4rem;
+}
+.contact-content {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    font-size: 1rem;
+    font-weight: 700;
+    gap: 5px;
+}
+.contact-content a:hover {
+    text-decoration: underline;
+}
+.social-media-space {
+    max-height: 50px;
+    width: 100%;
+}

@@ -1,0 +1,103 @@
+.about {
+    /* border: 2px solid red; */
+    width: 100%;
+    min-height: 400px;
+    padding: 3% 0;
+}
+.about .title {
+    font-size: 1.5rem;
+}
+article {
+    /* border: 2px solid black; */
+    display: flex;
+    grid-template-columns: repeat(2, auto);
+    min-height: 500px;
+    margin: 2% 0;
+}
+.image-focal-point, .text-focal-point {
+    /* border: 1px solid red; */
+    width: 100%;
+    min-height: 500px;
+    height: fit-content;
+    padding: 5%;
+    overflow: hidden;
+}
+.image-focal-point {
+    /* border: 2px solid blue; */
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.about-image {
+    border: 1px solid rgba(255, 255, 255, 0.326);
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.409);
+}
+.about-image-1 {
+    transform: translateY(-20px) translateX(-40px);
+    background-image: url(../../../public/mg-hero-1.jpg);
+    z-index: 2;
+    
+}
+.about-image-2 {
+    transform: translateY(20px) translateX(40px);
+    background-image: url(../../../public/mg-contact-1.jpg);
+}
+.text-focal-point {
+    display: flex;
+    justify-content: center;
+}
+.text-focal-point p {
+    max-width: 500px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+@media (max-width: 1000px) {
+    .about-image {
+        width: 300px;
+        height: 300px;
+    }
+}
+@media (max-width: 800px) {
+    article {
+        flex-direction: column;
+    }
+    .about-image {
+        width: 300px;
+        height: 300px;
+    }
+}
+@media (max-width: 500px) {
+    .about-image {
+        width: 250px;
+        height: 250px;
+    }
+}
+@media (max-width: 350px) {
+    .about-image {
+        width: 175px;
+        height: 175px;
+    }
+    .about-image-1 {
+        transform: translateY(-15px) translateX(-30px);
+        background-image: url(../../../public/mg-hero-1.jpg);
+        z-index: 2;
+        
+    }
+    .about-image-2 {
+        transform: translateY(15px) translateX(30px);
+        background-image: url(../../../public/mg-contact-1.jpg);
+    }
+}

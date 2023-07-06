@@ -1,0 +1,24 @@
+.social-media-wrapper {
+    /* border: 2px solid yellow; */
+    height: 40px;
+    width: fit-content;
+    padding: 2px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    gap: 20px;
+}
+
+.social-media-icon {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    padding: 4px;
+    transition: 400ms;
+}
+.social-media-icon:hover {
+    border: 2px solid white;
+    transition: 400ms;
+}

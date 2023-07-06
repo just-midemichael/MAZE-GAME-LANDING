@@ -1,0 +1,7 @@
+.body-section {
+    /* border: 1px solid green; */
+    height: fit-content;
+    width: inherit;
+    max-width: 1800px;
+    overflow: hidden;
+}

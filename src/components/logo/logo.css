@@ -1,0 +1,11 @@
+.logo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: teal;
+    cursor: pointer;
+}
+
+.logo span {
+    color: black;
+}

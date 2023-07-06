@@ -1,0 +1,23 @@
+.hamburger-wrapper {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3.5px;
+    cursor: pointer;
+    width: 30px;
+    max-width: 30px;
+    height: 30px;
+    max-height: 30px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 2px;
+    overflow: hidden;
+}
+.bar {
+    background-color: black;
+    width: 25px;
+    height: 4px;
+    border-radius: 10px;
+}
