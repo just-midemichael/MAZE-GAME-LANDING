@@ -17,6 +17,14 @@ export const About = () => {
           </p>
         </div>
       </article>
+      <div className='article-box-2'>
+        <div className='article-image-1'></div>
+        <div className='article-text'>
+          <p>
+            The purpose of doing this project was to create a game in 3D using ray-casting for ALX Software Engineering Program. This project was built with Ray Casting.
+          </p>
+        </div>
+      </div>
     </section>
   )
 }
