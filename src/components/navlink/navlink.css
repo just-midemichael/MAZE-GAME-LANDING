@@ -8,10 +8,8 @@ nav {
     align-items: center;
     gap: 10px;
     padding: 2px 2%;
-    font-family: monospace;
     overflow: hidden;
 }
-
 nav li {
     list-style: none;
     /* border: 2px solid red; */
